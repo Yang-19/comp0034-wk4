@@ -2,7 +2,7 @@
 from typing import List
 from sqlalchemy import ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from complexdb import db
+from complexdb.__init__  import db
 
 
 class Temperature(db.Model):

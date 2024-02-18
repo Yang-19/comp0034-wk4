@@ -1,5 +1,5 @@
 from complexdb.models import Prediction, Bloom, Temperature
-from complexdb import db, ma
+from complexdb.__init__  import db, ma
 
 
 class BloomSchema(ma.SQLAlchemySchema):

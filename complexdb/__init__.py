@@ -4,6 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase
 from flask_marshmallow import Marshmallow
 
+#flask --app complexdb/routes.py run 
 
 class Base(DeclarativeBase):
     pass

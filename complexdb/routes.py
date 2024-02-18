@@ -1,6 +1,6 @@
-from flask import current_app as app
+from flask import  current_app as app
 
-from complexdb import db
+from complexdb.__init__ import db
 from complexdb.models import Prediction
 from complexdb.schemas import PredictionSchema
 
